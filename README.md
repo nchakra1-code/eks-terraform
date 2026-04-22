@@ -6,28 +6,7 @@ This repository contains the terraform file code, which we can use to provision 
 
 ![Architecture Diagram](https://cdn-images-1.medium.com/max/800/1*T5IRoSoiqT8qnYLUprsRUQ.png)
 
-## Note and Links
-We are currently on Blog 2
 
-Blog 1: [Blog 1] (https://medium.com/p/71983375e550/edit) 
-
-Blog 2: [Blog 2] (https://medium.com/p/aa96d9a00391/edit) 
-
-Blog 3: [Blog 3] (https://medium.com/p/e604412e959f/edit)
-
-Blog 4: [Blog 4] (https://medium.com/p/9e3d62e1c093/edit)
-
-## Installation of Terraform
-Follow the blog to Install the Terraform and another dependency.
-
-1️⃣ Clone the repo
-
-``` git clone https://github.com/chauhan-himani/kube_terraform.git ```
-
-2️⃣ Let's install dependency to deploy the application
-
-``` 
-cd kube_terraform/ToDo-App/
 terraform init
 ```
 
@@ -60,9 +39,10 @@ PRI_SUB3_CIDR   = "10.0.3.0/24"
 PRI_SUB4_CIDR   = "10.0.4.0/24"
 ```
 
-Please note that the above file is crucial for setting up the infrastructure, so pay close attention to the values you enter for each variable.
 
 It's time to build the infrastructure
+
+`terraform init`
 
 The below command will tell you what terraform is going to create.
 
