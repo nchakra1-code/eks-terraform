@@ -10,7 +10,7 @@ This repository contains the terraform file code, which we can use to provision 
 terraform init
 ```
 
-3️⃣ Edit the below file according to your configuration
+Edit the below file according to your configuration
 
 `vim kube_terraform/ToDo-App/backend.tf`
 
